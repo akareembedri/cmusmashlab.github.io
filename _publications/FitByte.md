@@ -1,14 +1,17 @@
-
 ---
 abstract: |-
-  In an attempt to help users reach their health goals and practi- tioners understand the relationship between diet and disease, researchers have proposed many wearable systems to automat- ically monitor food consumption. When a person consumes food, he/she brings the food close to their mouth, take a sip or bite and chew, and then swallow. Most diet monitoring approaches focus on one of these aspects of food intake, but this narrow reliance requires high precision and often fails in noisy and unconstrained situations common in a person’s daily life. In this paper, we introduce FitByte, a multi-modal sensing approach on a pair of eyeglasses that tracks all phases of food intake. FitByte contains a set of inertial and optical sensors that allow it to reliably detect food intake events in noisy environments. It also has an on-board camera that opportunistically captures visuals of the food as the user consumes it. We evaluated the system in two studies with decreasing environmental constraints with 23 participants. On average, FitByte achieved 89% F1-score in detecting eating and drinking episodes.
+  Cost and accessibility have impeded the adoption of spirometers (devices that measure lung function) outside clinical settings, especially in low-resource environments. Prior work, called SpiroSmart, used a smartphone's built-in microphone as a spirometer. However, individuals in low- or middle-income countries do not typically have access to the latest smartphones. In this paper, we investigate how spirometry can be performed from any phone-using the standard telephony voice channel to transmit the sound of the spirometry effort. We also investigate how using a 3D printed vortex whistle can affect the accuracy of common spirometry measures and mitigate usability challenges. Our system, coined SpiroCall, was evaluated with 50 participants against two gold standard medical spirometers. We conclude that SpiroCall has an acceptable mean error with or without a whistle for performing spirometry, and advantages of each are discussed.
 authors:
-- Bedri
-- Li
-- Khurana
-- Bhuwalka
-- Goel
-
+- bedri
+- Richard Li
+- Malcolm Haynes
+- Raj Prateek Kosaraju
+- Ishaan Grover
+- Temiloluwa Prioleau
+- min
+- goel
+- Thad Starner
+- Gregory Abowd
 
 bibtex: |-
    @article{bedri2017earbit,
@@ -29,8 +32,8 @@ date: '2017-9-22'
 image: '/images/pubs/earbit.png'
 pdf: /pdfs/spirocall.pdf
 thumbnail: '/images/pubs/earbit.png'
-name: 'FitByte'
-title: 'FitByte: Automatic Diet Monitoring in Unconstrained Situations Using Multimodal Sensing On Eyeglasses'
+name: 'EarBit'
+title: 'EarBit: using wearable sensors to detect eating episodes in unconstrained environments'
 onhomepage: true
-blurb: comming soon
+blurb: A non-intrusive earpiece for monitoring diet
 ---
